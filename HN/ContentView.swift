@@ -14,13 +14,22 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             List(networkManager.posts) { post in
+                Text(String(post.points))
                 Text(post.title)
             }
-            .navigationBarTitle("HN")
+            .navigationBarTitle(String(getCurrentDate()))
         }
         .onAppear {
             networkManager.fetchValue()
+            
         }
+    }
+    
+    func getCurrentDate() -> String {
+        let df = DateFormatter()
+        df.dateStyle = .medium
+        df.timeStyle = .none
+        return df.string(from: Date())
     }
 }
 
