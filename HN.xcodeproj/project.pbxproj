@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		286EAE2F25664742003990C6 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286EAE2E25664742003990C6 /* DetailView.swift */; };
+		286EAE362566A14F003990C6 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286EAE352566A14F003990C6 /* WebView.swift */; };
 		28B073F2256574570004638D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B073F1256574570004638D /* AppDelegate.swift */; };
 		28B073F4256574570004638D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B073F3256574570004638D /* SceneDelegate.swift */; };
 		28B073F6256574570004638D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B073F5256574570004638D /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		286EAE2E25664742003990C6 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		286EAE352566A14F003990C6 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		28B073EE256574570004638D /* HN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B073F1256574570004638D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28B073F3256574570004638D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				28B073F5256574570004638D /* ContentView.swift */,
 				286EAE2E25664742003990C6 /* DetailView.swift */,
+				286EAE352566A14F003990C6 /* WebView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				28B073F4256574570004638D /* SceneDelegate.swift in Sources */,
 				28B0741125657D3D0004638D /* DecodePostData.swift in Sources */,
 				28B073F6256574570004638D /* ContentView.swift in Sources */,
+				286EAE362566A14F003990C6 /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
