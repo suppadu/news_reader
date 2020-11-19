@@ -24,6 +24,21 @@ struct ContentView: View {
                     })
             }
             .navigationBarTitle(String(getCurrentDate()))
+            .toolbar {
+                ToolbarItem(placement: .bottomBar) {
+                    HStack {
+                        Spacer()
+                        Button(action: {
+                            networkManager.fetchValue()
+                        }, label: {
+                                Image(systemName: "arrow.counterclockwise")
+                                    .font(.title3)
+                        })
+                        Spacer()
+                    }
+                }
+            }
+            
         }
         .onAppear {
             networkManager.fetchValue()
